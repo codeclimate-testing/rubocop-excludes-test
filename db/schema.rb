@@ -13,3 +13,7 @@
 ActiveRecord::Schema.define(version: 0) do
 
 end
+
+if foo = "bar"
+  puts "this should create issues"
+end
